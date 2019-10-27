@@ -1,0 +1,81 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	background: #fff;
+	color: #191964;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+p.clear {
+	clear:both;
+}
+#content {
+	text-align: left;
+	width: 800px;
+	margin: 8px auto;
+}
+#logoanim { text-align:center; position: relative; }
+#logolink, #logotext, #pageanimimage { border: 0px; }
+#navigation {
+	border-bottom: 2px solid #191964;
+	margin-top: 40px;
+}
+#navigation ul {
+	list-style-type: none;
+	list-style-image: none;
+	font-style: italic;
+	font-size: 14px;
+	padding: 0px;
+}
+#navigation li {
+	display: inline;
+}
+#navigation a:link, #navigation a:visited {
+	padding: 3px 10px;
+	margin-right: 6px;
+	background:  #191964;
+	color: #eee;
+	text-decoration: none;
+}
+#navigation a:hover, #navigation a.ison {
+	background: #eee;
+	color:  #191964;
+}
+#pagecontent {
+	min-height: 310px;
+	padding: 10px 20px;
+	margin: 20px 0;
+	background: #eee;
+}
+#pageimage, #pageanim {
+	float: right;
+	border: 2px solid #191964;
+	margin-left: 10px;
+}
+#pageanim { width: 266px; height: 200px; }
+#pageanim img { height: 200px; }
+#pageimage img { height: 300px; }
+#footer {
+	border-top: 2px solid #191964;
+	font-size: 9px;
+	text-align: center;
+}
+.newstable {
+	border: 1px solid #191964;
+	width: 450px;
+}
+.newstable td {
+	border: 1px solid #191964;
+	background: #fff;
+}
+.thumb {
+	width: 150px;
+	float: left;
+	border: 1px solid #191964;
+}
+.full {
+	width: 100%;
+	border: 1px solid #191964;
+}
